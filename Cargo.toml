@@ -1,0 +1,11 @@
+[package]
+name = "mosquitto_auth"
+version = "0.1.0"
+authors = ["danc <dangcheng@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2"
+
+[lib]
+crate-type = ["cdylib"]
